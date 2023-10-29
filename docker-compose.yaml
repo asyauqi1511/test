@@ -1,0 +1,13 @@
+version: "3.2"
+services:
+  postgres:
+    container_name: asyauqi_postgres
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: asyauqi_test
+      POSTGRES_DB: asyauqi_test
+      POSTGRES_PASSWORD: asyauqi_test
+    ports:
+      - 5432:5432
+    volumes:
+      - ./schema:/docker-entrypoint-initdb.d

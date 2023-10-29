@@ -1,0 +1,6 @@
+db:
+  hostname: "localhost"
+  port: 5432
+  username: "asyauqi_test"
+  password: "asyauqi_test"
+  database_name: "asyauqi_test"
