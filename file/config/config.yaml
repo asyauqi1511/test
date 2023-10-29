@@ -1,5 +1,5 @@
 db:
-  hostname: "localhost"
+  hostname: "host.docker.internal"
   port: 5432
   username: "asyauqi_test"
   password: "asyauqi_test"
