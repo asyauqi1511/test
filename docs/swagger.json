@@ -5,7 +5,7 @@
         "version": "1.0"
     },
     "paths": {
-        "/employees/": {
+        "/employees": {
             "get": {
                 "produces": [
                     "application/json"
@@ -111,7 +111,7 @@
                                     "required": true
                                 },
                                 "email": {
-                                    "type": "e",
+                                    "type": "string",
                                     "description": "Email address",
                                     "example": "john@example.com",
                                     "required": true
@@ -351,7 +351,7 @@
                                     "required": true
                                 },
                                 "email": {
-                                    "type": "e",
+                                    "type": "string",
                                     "description": "Email address",
                                     "example": "john@example.com",
                                     "required": true

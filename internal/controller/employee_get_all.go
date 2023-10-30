@@ -7,7 +7,7 @@ import (
 
 func (c *Controller) EmployeeGetAll(ctx *gin.Context) (httpStatus int, data any, err error) {
 	var (
-		resp []RequestEmployee
+		resp = []RequestEmployee{}
 	)
 
 	// Call model to get employee data.

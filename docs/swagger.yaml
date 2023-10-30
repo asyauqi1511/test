@@ -4,7 +4,7 @@ info:
   title: Employee Management.
   version: '1.0'
 paths:
-  "/employees/":
+  "/employees":
     get:
       produces:
         - application/json
@@ -82,7 +82,7 @@ paths:
                 example: Bob
                 required: true
               email:
-                type: e
+                type: string
                 description: Email address
                 example: john@example.com
                 required: true
@@ -254,7 +254,7 @@ paths:
                 example: Bob
                 required: true
               email:
-                type: e
+                type: string
                 description: Email address
                 example: john@example.com
                 required: true

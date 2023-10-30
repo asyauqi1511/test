@@ -15,7 +15,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/employees/": {
+        "/employees": {
             "get": {
                 "produces": [
                     "application/json"
@@ -121,7 +121,7 @@ const docTemplate = `{
                                     "required": true
                                 },
                                 "email": {
-                                    "type": "e",
+                                    "type": "string",
                                     "description": "Email address",
                                     "example": "john@example.com",
                                     "required": true
@@ -361,7 +361,7 @@ const docTemplate = `{
                                     "required": true
                                 },
                                 "email": {
-                                    "type": "e",
+                                    "type": "string",
                                     "description": "Email address",
                                     "example": "john@example.com",
                                     "required": true
